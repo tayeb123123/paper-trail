@@ -52,7 +52,8 @@ and live-updating pages.
   or code.
 
 **How to use**
-1. Press **Ctrl+Shift+F** (Windows/Linux) or **⌘+Shift+F** (Mac), or click the icon.
+1. Press **Alt+Shift+F** (Windows/Linux) or **Option+Shift+F** (Mac), or click the icon.
+   You can change the shortcut at chrome://extensions/shortcuts.
 2. Type your words, separated by commas.
 3. **Enter** jumps to the next match, **Shift+Enter** to the previous, **Esc** closes.
 

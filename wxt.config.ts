@@ -20,10 +20,13 @@ export default defineConfig({
     },
     commands: {
       'toggle-panel': {
-        suggested_key: { default: 'Ctrl+Shift+F', mac: 'Command+Shift+F' },
+        // Chrome reserves Ctrl/Cmd+Shift+F on macOS and silently refuses to
+        // bind it, so use Alt(Option)+Shift+F everywhere. Users can change it
+        // at chrome://extensions/shortcuts.
+        suggested_key: { default: 'Alt+Shift+F' },
         description: 'Open / close Paper Trail on this page',
       },
     },
-    action: { default_title: 'Paper Trail (Ctrl/Cmd+Shift+F)' },
+    action: { default_title: 'Paper Trail (Alt+Shift+F / ⌥⇧F)' },
   },
 });

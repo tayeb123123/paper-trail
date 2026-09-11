@@ -10,7 +10,9 @@ Everything is free: no paid APIs, no accounts, no build services.
 
 1. `npm install` then `npm run build` → `dist/chrome-mv3/`
 2. Chrome → `chrome://extensions` → enable *Developer mode* → *Load unpacked* → pick `dist/chrome-mv3`
-3. On any page press **⌘⇧F** (mac) / **Ctrl+Shift+F**, or click the toolbar icon.
+3. On any page press **⌥⇧F** (mac) / **Alt+Shift+F**, or click the toolbar icon.
+   (Chrome won't let extensions use ⌘⇧F. Change the key any time at `chrome://extensions/shortcuts`.)
+   It can't run on Chrome's own pages — `chrome://…`, the new-tab page, the Web Store, or the built-in PDF viewer.
 
 Type items separated by commas (`fast, cheap, reliable`). Each item prints as a
 line with its match count ("qty"); synonyms print underneath as chips — click
