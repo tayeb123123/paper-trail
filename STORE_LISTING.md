@@ -6,61 +6,57 @@ Paper Trail — Find Words & Their Synonyms
 
 ## Short description (132 characters max)
 
-Search a page for several words at once, including their synonyms, and see where they cluster together. Printed on a receipt.
+Find several words on a page at once — synonyms included — and jump to the spots where they appear together.
 
 ## Detailed description
 
-**Ctrl+F, but for the way you actually read.**
+Paper Trail is find-in-page for when one word isn't enough.
 
-You're skimming a long article, a report, a contract, a forum thread. You're
-not looking for one exact word — you're looking for an idea, and the author
-might have said it three different ways. Paper Trail finds all of them at once.
+Type a few words, separated by commas. Paper Trail highlights all of them on
+the page at the same time, each in its own colour, and adds their synonyms so
+you don't miss the sentence that says "quick" when you searched for "fast".
 
-**Search many things at the same time**
-Type a few words separated by commas — `price, delivery, refund` — and every
-one lights up on the page in its own colour. No more searching, closing,
-searching again.
+WHAT YOU GET
 
-**Synonyms included**
-Each word you type prints a list of synonyms underneath it. They're on by
-default, so `fast` also finds `quick` and `rapid`. Don't want one? Click it to
-switch it off. Missing one? Add your own. Your choices are remembered.
+- Search for many words at once instead of one at a time.
+- Synonyms are found automatically. Switch any of them off with a click, or add
+  your own. Paper Trail remembers your choices.
+- Hot spots show you where several of your words appear close together — the
+  part of the page that's really about your topic. Click one to jump there.
+- A count for every word, a total at the bottom, and Enter / Shift+Enter to
+  step through the matches.
+- Works on long pages and pages that update while you read.
 
-**Hot spots: where it all comes together**
-The receipt lists the places on the page where several of your words appear
-close to each other — the paragraph that's actually about what you're looking
-for. Click a hot spot to jump straight there.
+WHY IT LOOKS LIKE A RECEIPT
 
-**It looks like a receipt, because it is one**
-Your search prints out on a little strip of thermal paper: items, quantities,
-a total, a barcode. It sits in the corner of the page and gets out of your way.
-Drag it wherever you like.
+Your search prints out on a small strip of paper in the corner of the page:
+items, quantities, total, barcode. It's easy to read at a glance, stays out of
+the way, and you can drag it anywhere.
 
-**Fast on huge pages**
-Built on the same kind of algorithm search engines use to match thousands of
-words in one pass. Highlights are drawn by the browser without touching the
-page, so nothing breaks and nothing slows down — even on very long documents
-and live-updating pages.
+YOUR PRIVACY
 
-**Private by design**
-- Works entirely on your computer. What you read never leaves your browser.
-- Runs only on the tab you open it on, only while it's open.
-- No account, no tracking, no ads. No API keys.
-- Optional "online thesaurus" (off by default) can fetch extra synonyms from
-  the free Datamuse service. If you turn it on, only the words you type are
-  sent — never the page — and never anything that looks like an email, number
-  or code.
+- Everything runs on your computer. The pages you read never leave your browser.
+- It only runs on the tab you open it on, and only while it's open.
+- No account, no tracking, no ads.
+- The optional "online thesaurus" (off by default) can look up extra synonyms
+  from a free online dictionary. If you turn it on, only the words you type
+  are sent — never the page, and never anything that looks like an email
+  address, a number or a password.
 
-**How to use**
-1. Press **Alt+Shift+F** (Windows/Linux) or **Option+Shift+F** (Mac), or click the icon.
-   You can change the shortcut at chrome://extensions/shortcuts.
+HOW TO USE
+
+1. Press Alt+Shift+F (Windows/Linux) or Option+Shift+F (Mac), or click the
+   Paper Trail icon. You can change the shortcut at chrome://extensions/shortcuts.
 2. Type your words, separated by commas.
-3. **Enter** jumps to the next match, **Shift+Enter** to the previous, **Esc** closes.
+3. Enter goes to the next match, Shift+Enter to the previous one, Esc closes.
 
-Options on the receipt: whole word · word variants (run → running, runs) ·
-synonyms · online thesaurus · hot-spot distance.
+Options on the receipt let you match whole words only, include word forms
+(run, runs, running), turn synonyms on or off, and set how close together
+words must be to count as a hot spot.
 
-Free and open source. Requires Chrome 105 or newer.
+Free and open source. Works in Chrome 105 and newer. It can't run on Chrome's
+own pages (chrome://, the new-tab page, the Web Store) or in the built-in PDF
+viewer.
 
 ## Category
 
