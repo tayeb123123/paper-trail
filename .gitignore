@@ -1,0 +1,33 @@
+# build output
+node_modules/
+dist/
+.output/
+.wxt/
+*.zip
+coverage/
+
+# Chrome packaging: the extension's private signing key must NEVER be committed
+*.pem
+*.crx
+key.pem
+
+# secrets / local config (none are needed by this project, but never risk it)
+.env
+.env.*
+!.env.example
+*.key
+*.p12
+*.pfx
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+.idea/
+.vscode/
+*.swp
+
+# local scratch
+tmp/
+scratch/

@@ -1,0 +1,23 @@
+{
+  "name": "paper-trail",
+  "description": "Find many terms and their synonyms at once, with proximity hot spots. Receipt-paper UI.",
+  "private": true,
+  "version": "0.1.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt",
+    "build": "wxt build",
+    "zip": "wxt zip",
+    "test": "vitest run",
+    "thesaurus": "node scripts/build-thesaurus.mjs",
+    "postinstall": "wxt prepare"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.300",
+    "jsdom": "^29.1.1",
+    "typescript": "^5.6.0",
+    "vitest": "^3.0.0",
+    "wxt": "^0.21.4"
+  }
+}
