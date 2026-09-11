@@ -11,7 +11,8 @@
     "zip": "wxt zip",
     "test": "vitest run",
     "thesaurus": "node scripts/build-thesaurus.mjs",
-    "postinstall": "wxt prepare"
+    "postinstall": "wxt prepare",
+    "store-assets": "node scripts/make-store-assets.mjs"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.300",
